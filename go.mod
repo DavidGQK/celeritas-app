@@ -1,6 +1,6 @@
 module myapp
 
-go 1.17
+go 1.20
 
 require (
 	github.com/CloudyKit/jet/v6 v6.1.0
@@ -10,7 +10,7 @@ require (
 	github.com/jackc/pgx/v4 v4.13.0
 	github.com/justinas/nosurf v1.1.1
 	github.com/ory/dockertest/v3 v3.8.0
-	github.com/DavigGQK/celeritas v0.0.0
+	github.com/DavidGQK/celeritas v0.0.0
 	github.com/upper/db/v4 v4.2.1
 	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97
 )

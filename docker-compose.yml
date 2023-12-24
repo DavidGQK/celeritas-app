@@ -38,3 +38,12 @@ services:
 
     volumes:
       - ./db-data/mariadb/:/var/lib/mysql
+
+  mailhog:
+    image: mailhog/mailhog
+    restart: always
+    logging:
+      driver: 'none'  # disable saving logs
+    ports:
+      - "1025:1025" # smtp server
+      - "8025:8025" # web ui

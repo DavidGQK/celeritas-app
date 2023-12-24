@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/DavigGQK/celeritas"
+	"github.com/DavidGQK/celeritas"
 )
 
 func (h *Handlers) render(w http.ResponseWriter, r *http.Request, tmpl string, variables, data interface{}) error {

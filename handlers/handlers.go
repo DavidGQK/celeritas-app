@@ -4,7 +4,7 @@ import (
 	"myapp/data"
 	"net/http"
 
-	"github.com/DavigGQK/celeritas"
+	"github.com/DavidGQK/celeritas"
 )
 
 // Handlers is the type for handlers, and gives access to Celeritas and models
