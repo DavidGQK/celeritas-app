@@ -5,13 +5,13 @@ import (
 	"myapp/handlers"
 	"myapp/middleware"
 
-	"github.com/tsawler/celeritas"
+	"github.com/DavigGQK/celeritas"
 )
 
 type application struct {
-	App *celeritas.Celeritas
-	Handlers *handlers.Handlers
-	Models data.Models
+	App        *celeritas.Celeritas
+	Handlers   *handlers.Handlers
+	Models     data.Models
 	Middleware *middleware.Middleware
 }
 
